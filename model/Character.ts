@@ -1,8 +1,10 @@
 type Attributes = {
-  power: number,
-  speed: number,
-  resistence: number,
-  intelligence: number,
+  poder: number,
+  sabedoria: number,
+  influencia: number,
+  caos: number,
+  cura: number,
+  imortalidade:number
 };
 
 export default class Character{

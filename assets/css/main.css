@@ -5,5 +5,18 @@
 @theme{
 
     --font-poppins: "Poppins", sans-serif;
+    --color-gold: #e3aa34;
+    --animate-regressive: regressive 2s ease-in;
+    --breakpoint-xxs: 25.5rem;
 
+
+}
+
+@keyframes regressive {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
 }
