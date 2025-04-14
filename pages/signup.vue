@@ -46,12 +46,23 @@ const handleSignup = async () =>{
             })
         });
 
+        const data = await response.json();
+
         if(response.ok){
-            msgSucess.value = "enviado"
+            msgSucess.value = data.msg
             setTimeout(() => {
-                msgSucess.value = ""
+                msgSucess.value = "";
+            }, 2000);
+        }else{
+            msgError.value = data.msg;
+            setTimeout(() => {
+                msgError.value = ""
             }, 2000);
         }
+
+        user.value = "";
+        password.value = "";
+        confirm_password.value = "";
     } catch (error) {
         
     }
