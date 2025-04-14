@@ -39,7 +39,7 @@ const handleSubmit = () =>{
             <input type="text" placeholder="Digite seu usuario" class="w-[100%] h-[40px] border-2 text-center rounded-sm border-[#cd8720] bg-[#daae60] outline-none focus:outline-none">
           </label>
           <label for="password" class="w-[95%] flex flex-col text-center items-center justify-center">
-            <span class="text-xl uppercase tracking-wider font-poppins font-medium text-[#f8d759]">Password</span>
+            <span class="text-xl uppercase tracking-wider font-poppins font-medium text-[#f8d759]">senha</span>
             <input type="text" placeholder="***********" class="w-[100%] h-[40px] border-2 text-center rounded-sm border-[#cd8720] bg-[#daae60] outline-none focus:outline-none">
           </label>
           <button type="submit" class="w-[70%] h-[50px] border-3 rounded-lg border-[#804706] bg-[#b87617] text-2xl uppercase font-serif tracking-wider text-[#381900]">Login</button>
